@@ -302,7 +302,7 @@ body{
   padding: 20px;
   color: #fff;
   border-radius: 6px;
-  width: 65%;
+  width: 60%;
 }
 
 .container main .playlist .music-list .items .item{
@@ -570,6 +570,10 @@ body{
   .container main .playlist .genres .items .item:nth-child(6),
   .container main .playlist .music-list .items .item .info > p{
     display: none;
+  }
+
+  .container main .playlist .music-list{
+    width: 70%;
   }
   
 }
